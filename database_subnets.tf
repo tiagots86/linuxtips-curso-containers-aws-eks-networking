@@ -21,7 +21,7 @@ resource "aws_network_acl" "database" {
   vpc_id = aws_vpc.main.id
 
   egress {
-    rule_no    = 200
+    rule_no = 200
     #todos protocolos:
     protocol   = "-1"
     action     = "allow"
