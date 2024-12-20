@@ -22,3 +22,22 @@ public_subnets = [
     availability_zone = "us-east-1c"
   }
 ]
+
+private_subnets = [
+  // Private Subnets
+  {
+    name              = "linuxtips-private-1a"
+    cidr              = "10.0.0.0/20"
+    availability_zone = "us-east-1a"
+  },
+  {
+    name              = "linuxtips-private-1b"
+    cidr              = "10.0.16.0/20"
+    availability_zone = "us-east-1b"
+  },
+  {
+    name              = "linuxtips-private-1c"
+    cidr              = "10.0.32.0/20"
+    availability_zone = "us-east-1c"
+  }
+]
