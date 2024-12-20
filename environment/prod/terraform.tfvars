@@ -57,3 +57,21 @@ private_subnets = [
     availability_zone = "us-east-1c"
   }
 ]
+
+database_subnets = [
+  {
+    name              = "linuxtips-database-1a"
+    cidr              = "10.0.51.0/24"
+    availability_zone = "us-east-1a"
+  },
+  {
+    name              = "linuxtips-database-1b"
+    cidr              = "10.0.52.0/24"
+    availability_zone = "us-east-1b"
+  },
+  {
+    name              = "linuxtips-database-1c"
+    cidr              = "10.0.53.0/24"
+    availability_zone = "us-east-1c"
+  }
+]
